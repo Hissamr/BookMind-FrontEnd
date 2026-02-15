@@ -1,0 +1,64 @@
+.book-list-page {
+    padding-top: 2rem;
+}
+
+.list-header {
+    margin-bottom: 2rem;
+}
+
+.list-header h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+.search-input {
+    padding-left: 3rem;
+}
+
+.genre-filter {
+    position: relative;
+    min-width: 200px;
+}
+
+.filter-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    pointer-events: none;
+}
+
+.select-input {
+    padding-left: 3rem;
+    appearance: none;
+    cursor: pointer;
+}
+
+.loading-state,
+.empty-state {
+    text-align: center;
+    padding: 4rem;
+    color: var(--text-muted);
+    font-size: 1.25rem;
+}
